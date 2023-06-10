@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnBai1"
+        android:text="Bài 1"
+        android:background="#0773F8"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnBai2"
+        android:text="Bài 2"
+        android:background="#7101E1"
+        android:layout_marginTop="80dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnBai3"
+        android:text="Bài 3"
+        android:background="#7101E1"
+        android:layout_marginTop="150dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnBai4"
+        android:text="Bài 4"
+        android:background="#FADA0E"
+        android:layout_marginTop="220dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnBai5"
+        android:text="Bài 5"
+        android:background="#169F0C"
+        android:layout_marginTop="290dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnBai6"
+        android:text="Bài 6"
+        android:background="#169F0C"
+        android:layout_marginTop="350dp"/>
+</RelativeLayout>

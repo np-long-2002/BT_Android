@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarrayHDH">
+        <item>Việt Nam</item>
+        <item>United State</item>
+        <item>England</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Laos</item>
+        <item>Singapore</item>
+        <item>ThaiLand</item>
+    </string-array>
+</resources>

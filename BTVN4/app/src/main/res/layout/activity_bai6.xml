@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Check All"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginLeft="50dp"
+            android:text="Check Clear"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
+
+    <GridView
+        android:layout_marginTop="60dp"
+        android:id="@+id/gv6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginBottom="60dp"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:ignore="MissingConstraints"
+       app:layout_constraintTop_toBottomOf="@id/gv6"
+       >
+       <Button
+           android:id="@+id/btnGet"
+           android:layout_width="180dp"
+           android:layout_height="50dp"
+           android:backgroundTint="@color/teal_200"
+           android:text="Get Item"
+           tools:ignore="MissingConstraints"
+           tools:layout_editor_absoluteX="115dp"
+           tools:layout_editor_absoluteY="682dp" />
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_Home"
+          android:icon="@drawable/ic_white_home"
+          android:title="Home"
+          android:checked="true"
+        />
+
+    <item android:id="@+id/nav_Dashboard"
+        android:icon="@drawable/ic_white_dashboard"
+        android:title="Dashboard"
+        />
+
+    <item android:id="@+id/nav_Notifications"
+        android:icon="@drawable/ic_white_notifications"
+        android:title="Notifications"
+        />
+
+    <item android:id="@+id/nav_Profile"
+        android:icon="@drawable/ic_white_user"
+        android:title="User"
+        />
+
+
+</menu>
